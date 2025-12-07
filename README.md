@@ -1,60 +1,65 @@
 # portfolio
 
-Developer • Problem Solver • Creator
-<p align="center"> <img src="https://img.shields.io/badge/Code-Kotlin-7F52FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge" /> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" /> </p>
-🚀 About Me
+Welcome to My Portfolio
+About Me
+Hello! I'm a passionate software developer with a strong foundation in computer science and a keen interest in building innovative solutions. I thrive on solving complex problems and continuously learning new technologies to expand my skill set.
+Background
+I graduated with a degree in Computer Science and have been actively developing projects that span web development, data analysis, and software engineering. My journey in tech has been driven by curiosity and a desire to create meaningful applications that make a difference.
+Interests
 
-Hi! I'm a passionate software developer who enjoys building applications, solving problems, and learning advanced technologies. I thrive on creativity, clean code architecture, and structured thinking.
+Full-Stack Development: Building end-to-end web applications with modern frameworks
+Open Source: Contributing to community projects and sharing knowledge
+Machine Learning: Exploring AI/ML applications and their real-world implementations
+Cloud Computing: Deploying scalable solutions using cloud infrastructure
 
-Interests:
+Technical Skills
+Languages: Python, JavaScript, Java, C++, HTML/CSS, SQL
+Frameworks & Libraries: React, Node.js, Express, Flask, Django, TensorFlow
+Tools & Technologies: Git, Docker, AWS, MongoDB, PostgreSQL, REST APIs
+Methodologies: Agile Development, Test-Driven Development, CI/CD
 
-Mobile Development (Kotlin / Android)
+My GitHub Repositories
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; padding: 20px; flex-wrap: wrap;">
+  <div style="border: 2px solid #0366d6; border-radius: 8px; padding: 20px; text-align: center; min-width: 200px; background-color: #f6f8fa;">
+    <h3>Project 1</h3>
+    <p>Description of your first repository</p>
+    <a href="https://github.com/yourusername/project1" style="color: #0366d6; text-decoration: none; font-weight: bold;">View Repository →</a>
+  </div>
+  <div style="font-size: 2em; color: #0366d6;">→</div>
+  <div style="border: 2px solid #0366d6; border-radius: 8px; padding: 20px; text-align: center; min-width: 200px; background-color: #f6f8fa;">
+    <h3>Project 2</h3>
+    <p>Description of your second repository</p>
+    <a href="https://github.com/yourusername/project2" style="color: #0366d6; text-decoration: none; font-weight: bold;">View Repository →</a>
+  </div>
+  <div style="font-size: 2em; color: #0366d6;">→</div>
+  <div style="border: 2px solid #0366d6; border-radius: 8px; padding: 20px; text-align: center; min-width: 200px; background-color: #f6f8fa;">
+    <h3>Project 3</h3>
+    <p>Description of your third repository</p>
+    <a href="https://github.com/yourusername/project3" style="color: #0366d6; text-decoration: none; font-weight: bold;">View Repository →</a>
+  </div>
+</div>
 
-Full-stack Web (React + Node.js)
+Beyond Coding
+Volunteer Work
+Tech Mentor at Local Coding Bootcamp (2023 - Present)
 
-Backend APIs
+Mentor aspiring developers in web development fundamentals
+Conduct weekly code review sessions and provide career guidance
+Help bridge the gap between education and industry requirements
 
-Game Development
+Open Source Contributor
 
-UI/UX Design
+Active contributor to several open-source projects
+Participate in Hacktoberfest annually
+Help maintain documentation and resolve issues for community projects
 
-Cloud & DevOps (beginner)
+Community Involvement
 
-🛠️ Tech Stack
-Languages & Frameworks
-Category	Tools
-Frontend	React, HTML, CSS, JavaScript, TypeScript
-Backend	Node.js, Express
-Mobile	Kotlin, Jetpack Compose
-Desktop	C#, .NET, WPF
-Other	Python, Git, MongoDB, SQL
-📂 Highlighted GitHub Projects
-🔹 Project 1
+Member of Local Developer Meetup: Regular attendee and occasional speaker on web development topics
+Hackathon Participant: Competed in multiple hackathons, winning 2nd place in City Tech Challenge 2024
+Tech Blog Writer: Share tutorials and insights on Medium about programming best practices
 
-Short description of the project — what it does, tech used, and purpose.
-
-🔹 Project 2
-
-Short description of the project.
-
-🔹 Project 3
-
-Short description of the project.
-
-✨ GitHub Stats
-<p align="center"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" /> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" /> </p>
-🌟 More About Me
-
-Outside of programming, I enjoy:
-
-🎨 Art & design
-
-🎮 Game development & indie games
-
-🤝 Community involvement
-
-🎵 Music production
-
-⚡ Hackathons
-I also enjoy volunteering, contributing to community events, and participating in hackathons.
-When I'm not coding, I enjoy creative hobbies such as art, music, and game design.
+Hobbies & Interests
+Photography: Combining technical skills with creative expression, specializing in landscape and urban photography. This hobby has taught me patience, attention to detail, and the importance of perspective—skills that translate well into software development.
+Chess: Strategic thinking and planning several moves ahead—essential skills that mirror software architecture and problem-solving in coding.
+Marathon Running: Demonstrates discipline, goal-setting, and perseverance. Completed 3 marathons, which taught me the value of consistent effort and breaking large goals into manageable milestones.
