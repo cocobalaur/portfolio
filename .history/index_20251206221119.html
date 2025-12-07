@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Academic CV</title>
+    <title>Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -378,6 +378,32 @@
             text-decoration: none;
         }
 
+        .interests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.interest-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    filter: invert(50%) sepia(90%) saturate(300%) hue-rotate(200deg); /* optional color styling */
+    transition: transform 0.3s;
+}
+
+.interest-item p {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #667eea;
+}
+
+.interest-item:hover img {
+    transform: scale(1.1);
+}
         @media (max-width: 768px) {
             .bio-section {
                 grid-template-columns: 1fr;
@@ -412,27 +438,47 @@
 </head>
 <body>
     <header class="header">
-        <img src="https://via.placeholder.com/150" alt="Your Name" class="profile-img">
-        <h1>Dr. Your Name</h1>
-        <p class="title">Senior AI Research Scientist</p>
-        <p class="affiliation">Your University / Company</p>
-    </header>
+        <div class="container">
+        <section id="bio">
+            <div class="bio-section">
+                <div class="bio-content">
+                <h1>Carolina Balaur</h1>
+                <p class="title">Computer Science Student</p>
+                <p class="affiliation">John Abbott College</p>
 
-    <nav>
-        <ul>
-            <li><a href="#bio">Bio</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+                
+                </div>
+                 <div class="bio-sidebar">
+                    <h3 style="color: #221f1f; margin-bottom: 20px;">Professional Summary</h3>
+                    
+                    <div class="education-item">
+                        <div class="education-details">
+                            <h4>Professional Summary</h4>
+                            <p>Alex Johnson is a Senior AI Research Scientist at Meta AI. His research has been published in top
+                                 conferences like NeurIPS and ICML, with over 10,000 citations. 
+                                 Alex is passionate about pushing the boundaries of AI while ensuring 
+                                 ethical development.</p>
+                        </div>
+                    </div>
+                <a href="CarolinaBalaur.pdf" class="btn-primary" target="_blank">
+                    View CV (PDF)
+                </a>
+
+
+                </div>
+            </div>
+        </section>
+        </div>
+
+        
+    </header>
 
     <div class="container">
         <!-- Bio Section -->
         <section id="bio" class="section">
             <div class="bio-section">
                 <div class="bio-content">
+                    
                     <h2 class="section-title">Professional Summary</h2>
                     <p>
                         I am a passionate researcher and educator working at the intersection of artificial intelligence 
@@ -445,124 +491,71 @@
                         computer vision, and natural language processing.
                     </p>
                     
-                    <h3>Research Interests</h3>
-                    <div class="interests">
-                        <span class="interest-tag">Large Language Models</span>
-                        <span class="interest-tag">Computer Vision</span>
-                        <span class="interest-tag">Reinforcement Learning</span>
-                        <span class="interest-tag">AI Ethics</span>
-                        <span class="interest-tag">Neural Architecture Search</span>
+                    <h3>Interests</h3>
+                 <div class="interests-grid">
+                    <div class="interest-item">
+                        <img src="path/to/skiing-icon.png" alt="Skiing Icon">
+                        <p>Skiing</p>
                     </div>
+                    <div class="interest-item">
+                        <img src="path/to/reading-icon.png" alt="Reading Icon">
+                        <p>Reading</p>
+                    </div>
+                    <div class="interest-item">
+                        <img src="path/to/movies-icon.png" alt="Movies Icon">
+                        <p>Movies</p>
+                    </div>
+                    <div class="interest-item">
+                        <img src="path/to/skating-icon.png" alt="Skating Icon">
+                        <p>Skating</p>
+                    </div>
+                    <div class="interest-item">
+                        <img src="path/to/video-games-icon.png" alt="Video Games Icon">
+                        <p>Video Games</p>
+                    </div>
+                </div>
 
-                    <a href="#" class="btn-primary">Download CV (PDF)</a>
                 </div>
 
                 <div class="bio-sidebar">
                     <h3 style="color: #667eea; margin-bottom: 20px;">Education</h3>
                     
-                    <div class="education-item">
-                        <div class="education-icon">PhD</div>
-                        <div class="education-details">
-                            <h4>PhD in Computer Science</h4>
-                            <p>Stanford University</p>
-                            <p>2015 - 2019</p>
-                        </div>
+                      <div class="interests">
+                        <span class="interest-tag">Python</span>
+                        <span class="interest-tag">C#</span>
+                        <span class="interest-tag">Kotlin</span>
+                        <span class="interest-tag">JavaScript</span>
+                        <span class="interest-tag">TypeScript</span>
+                        <span class="interest-tag">React</span>
+                        <span class="interest-tag">MongoDB</span>
+                        <span class="interest-tag">SQL</span>
+                        <span class="interest-tag">CI/CD</span>
                     </div>
-
-                    <div class="education-item">
-                        <div class="education-icon">MS</div>
-                        <div class="education-details">
-                            <h4>MS in Computer Science</h4>
-                            <p>Carnegie Mellon University</p>
-                            <p>2013 - 2015</p>
-                        </div>
-                    </div>
-
-                    <div class="education-item">
-                        <div class="education-icon">BS</div>
-                        <div class="education-details">
-                            <h4>BS in Computer Science</h4>
-                            <p>MIT</p>
-                            <p>2009 - 2013</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
-        <!-- Publications Section -->
-        <section id="publications" class="section">
-            <h2 class="section-title">📚 Featured Publications</h2>
-            
-            <div class="publication-card">
-                <img src="https://via.placeholder.com/200x150" alt="Publication" class="publication-img">
-                <div class="publication-content">
-                    <h3>Advances in Large Language Model Architecture</h3>
-                    <p>
-                        This paper presents novel approaches to transformer architectures that significantly 
-                        improve training efficiency and model performance on downstream tasks.
-                    </p>
-                    <p class="publication-meta">
-                        <strong>Your Name</strong>, Co-Author One, Co-Author Two (2024)
-                        <br>
-                        <em>Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
-                    </p>
-                    <div class="publication-links">
-                        <a href="#" class="pub-link">PDF</a>
-                        <a href="#" class="pub-link">Code</a>
-                        <a href="#" class="pub-link">arXiv</a>
-                        <a href="#" class="pub-link">Slides</a>
-                    </div>
-                </div>
-            </div>
+    
+           
 
-            <div class="publication-card">
-                <img src="https://via.placeholder.com/200x150" alt="Publication" class="publication-img">
-                <div class="publication-content">
-                    <h3>Deep Reinforcement Learning for Robotics</h3>
-                    <p>
-                        We introduce a novel RL framework that enables robots to learn complex manipulation 
-                        tasks with minimal human supervision, achieving state-of-the-art results.
-                    </p>
-                    <p class="publication-meta">
-                        <strong>Your Name</strong>, Co-Author (2023)
-                        <br>
-                        <em>International Conference on Machine Learning (ICML 2023)</em>
-                    </p>
-                    <div class="publication-links">
-                        <a href="#" class="pub-link">PDF</a>
-                        <a href="#" class="pub-link">Code</a>
-                        <a href="#" class="pub-link">Dataset</a>
-                        <a href="#" class="pub-link">Video</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="publication-card">
-                <img src="https://via.placeholder.com/200x150" alt="Publication" class="publication-img">
-                <div class="publication-content">
-                    <h3>Ethical Considerations in AI Development</h3>
-                    <p>
-                        This work explores the ethical implications of AI systems and proposes frameworks 
-                        for responsible AI development and deployment.
-                    </p>
-                    <p class="publication-meta">
-                        <strong>Your Name</strong>, Ethics Team (2023)
-                        <br>
-                        <em>Journal of Artificial Intelligence Research</em>
-                    </p>
-                    <div class="publication-links">
-                        <a href="#" class="pub-link">PDF</a>
-                        <a href="#" class="pub-link">DOI</a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Projects Section -->
         <section id="projects" class="section">
             <h2 class="section-title">🚀 GitHub Projects</h2>
-            
+             <div class="bio-content">
+                    
+                    <p>
+                        I am a passionate researcher and educator working at the intersection of artificial intelligence 
+                        and machine learning. My research has been published in top-tier conferences including NeurIPS, 
+                        ICML, and CVPR, with over 10,000 citations.
+                    </p>
+                    <p>
+                        I'm dedicated to advancing the field of AI while ensuring ethical development and deployment 
+                        of intelligent systems. My work focuses on developing novel algorithms for deep learning, 
+                        computer vision, and natural language processing.
+                    </p>
+                
+
+                </div>
             <div class="project-box">
                 <div class="project-card">
                     <h3>🤖 Project One</h3>
@@ -571,19 +564,7 @@
                         training and inference capabilities.
                     </p>
                     <p class="tech-stack">Python • PyTorch • Transformers • CUDA</p>
-                    <a href="https://github.com/yourusername/project1" target="_blank">View Repository →</a>
-                </div>
-
-                <div class="project-arrow">→</div>
-
-                <div class="project-card">
-                    <h3>📊 Project Two</h3>
-                    <p>
-                        Real-time data visualization dashboard for ML experiments with support for 
-                        distributed training metrics.
-                    </p>
-                    <p class="tech-stack">React • D3.js • FastAPI • PostgreSQL</p>
-                    <a href="https://github.com/yourusername/project2" target="_blank">View Repository →</a>
+                    <a href="https://github.com/cocobalaur/answering-question-game.git" target="_blank">View Repository →</a>
                 </div>
 
                 <div class="project-arrow">→</div>
@@ -595,76 +576,12 @@
                         simulated environments.
                     </p>
                     <p class="tech-stack">Python • TensorFlow • OpenAI Gym • Docker</p>
-                    <a href="https://github.com/yourusername/project3" target="_blank">View Repository →</a>
+                    <a href="https://github.com/cocobalaur/AppDev_2025_LinaBiba.git" target="_blank">View Repository →</a>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="section">
-            <h2 class="section-title">💼 Experience</h2>
-            
-            <div class="experience-timeline">
-                <div class="experience-item">
-                    <h3>Senior AI Research Scientist</h3>
-                    <p class="company">Meta AI</p>
-                    <p class="date">2020 - Present</p>
-                    <ul>
-                        <li>Leading research team of 8 scientists working on large language models</li>
-                        <li>Published 12+ papers in top-tier conferences (NeurIPS, ICML, ICLR)</li>
-                        <li>Developed novel architectures that reduced training costs by 40%</li>
-                        <li>Mentoring PhD interns and collaborating with university partners</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <h3>Research Scientist</h3>
-                    <p class="company">Google Brain</p>
-                    <p class="date">2019 - 2020</p>
-                    <ul>
-                        <li>Worked on computer vision models for autonomous systems</li>
-                        <li>Contributed to TensorFlow and open-source ML libraries</li>
-                        <li>Collaborated with product teams to deploy models in production</li>
-                        <li>Published 5 papers at major conferences</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <h3>Research Intern</h3>
-                    <p class="company">DeepMind</p>
-                    <p class="date">Summer 2018</p>
-                    <ul>
-                        <li>Developed reinforcement learning algorithms for game-playing agents</li>
-                        <li>Achieved state-of-the-art results on several benchmark tasks</li>
-                        <li>Work resulted in a publication at NeurIPS 2018</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <h2 class="section-title">📫 Get In Touch</h2>
-            <p style="font-size: 1.1em; margin-bottom: 20px;">
-                I'm always interested in collaborating on exciting research projects and discussing 
-                new ideas in AI and machine learning.
-            </p>
-            <p>
-                <strong>Email:</strong> your.email@institution.edu<br>
-                <strong>Office:</strong> Building XYZ, Room 123<br>
-                <strong>Location:</strong> Stanford, CA
-            </p>
-            <div style="margin-top: 30px;">
-                <a href="https://twitter.com/yourhandle" class="btn-primary" style="margin-right: 10px;">Twitter</a>
-                <a href="https://github.com/yourusername" class="btn-primary" style="margin-right: 10px;">GitHub</a>
-                <a href="https://linkedin.com/in/yourprofile" class="btn-primary">LinkedIn</a>
-            </div>
-        </section>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-        <p>Built with HTML & CSS | <a href="https://github.com/yourusername">View Source</a></p>
-    </footer>
 </body>
 </html>
+
+
