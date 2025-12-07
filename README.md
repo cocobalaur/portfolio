@@ -43,23 +43,35 @@ Beyond Coding
 Volunteer Work
 Tech Mentor at Local Coding Bootcamp (2023 - Present)
 
-Mentor aspiring developers in web development fundamentals
-Conduct weekly code review sessions and provide career guidance
-Help bridge the gap between education and industry requirements
-
-Open Source Contributor
-
-Active contributor to several open-source projects
-Participate in Hacktoberfest annually
-Help maintain documentation and resolve issues for community projects
-
-Community Involvement
-
-Member of Local Developer Meetup: Regular attendee and occasional speaker on web development topics
-Hackathon Participant: Competed in multiple hackathons, winning 2nd place in City Tech Challenge 2024
-Tech Blog Writer: Share tutorials and insights on Medium about programming best practices
-
-Hobbies & Interests
-Photography: Combining technical skills with creative expression, specializing in landscape and urban photography. This hobby has taught me patience, attention to detail, and the importance of perspective—skills that translate well into software development.
-Chess: Strategic thinking and planning several moves ahead—essential skills that mirror software architecture and problem-solving in coding.
-Marathon Running: Demonstrates discipline, goal-setting, and perseverance. Completed 3 marathons, which taught me the value of consistent effort and breaking large goals into manageable milestones.
+🚀 Featured Projects
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>📱 Project One</h3>
+      <p><strong>E-Commerce Platform</strong></p>
+      <p>Full-stack web application with user authentication, product catalog, and shopping cart functionality</p>
+      <p><em>React • Node.js • MongoDB • Stripe API</em></p>
+      <p><a href="https://github.com/yourusername/project1">View Repository →</a></p>
+    </td>
+    <td align="center" width="10%">
+      <h1>→</h1>
+    </td>
+    <td align="center" width="33%">
+      <h3>🤖 Project Two</h3>
+      <p><strong>Machine Learning Classifier</strong></p>
+      <p>Image classification model achieving 92% accuracy using convolutional neural networks</p>
+      <p><em>Python • TensorFlow • Keras • OpenCV</em></p>
+      <p><a href="https://github.com/yourusername/project2">View Repository →</a></p>
+    </td>
+    <td align="center" width="10%">
+      <h1>→</h1>
+    </td>
+    <td align="center" width="33%">
+      <h3>📊 Project Three</h3>
+      <p><strong>Data Visualization Dashboard</strong></p>
+      <p>Interactive dashboard for analyzing and visualizing real-time data from multiple APIs</p>
+      <p><em>React • D3.js • Express • PostgreSQL</em></p>
+      <p><a href="https://github.com/yourusername/project3">View Repository →</a></p>
+    </td>
+  </tr>
+</table>
