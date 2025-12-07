@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,7 @@
             box-sizing: border-box;
         }
 
-          body {
+        body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #f5e6f5 0%, #e6d5f5 50%, #d5c5f5 100%);
             padding: 40px 20px;
@@ -43,7 +44,7 @@
         nav {
             background: white;
             padding: 15px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: sticky;
             top: 0;
             z-index: 100;
@@ -82,7 +83,7 @@
             margin-bottom: 30px;
             padding: 40px;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         .section-title {
@@ -231,20 +232,19 @@
             font-weight: 600;
         }
 
-
         .interests-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 20px;
+            gap: 90px;
             text-align: center;
             margin-top: 20px;
         }
 
         .interest-item {
             display: flex;
-            flex-direction: column; 
-            align-items: center;    
-            justify-content: center; 
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .interest-item img {
@@ -262,9 +262,23 @@
             color: #667eea;
         }
 
-.interest-item:hover img {
-    transform: scale(1.1);
-}
+        .project-card {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .project-image {
+
+            max-height: 150px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .interest-item:hover img {
+            transform: scale(1.1);
+        }
+
         @media (max-width: 768px) {
             .bio-section {
                 grid-template-columns: 1fr;
@@ -297,61 +311,61 @@
         }
     </style>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
-        <section id="bio">
-            <div class="bio-section">
-                <div class="bio-content">
-                <h1>Carolina Balaur</h1>
-                <p class="title">Computer Science Student</p>
-                <p class="affiliation">John Abbott College</p>
+            <section id="bio">
+                <div class="bio-section">
+                    <div class="bio-content">
+                        <h1>Carolina Balaur</h1>
+                        <p class="title">Computer Science Student</p>
+                        <p class="affiliation">John Abbott College</p>
 
-                
-                </div>
-                 <div class="bio-sidebar">
-                    <h3 style="color: #221f1f; margin-bottom: 20px;">Professional Summary</h3>
-                    
-                    <div class="education-item">
-                        <div class="education-details">
-                            <h4>Professional Summary</h4>
-                            <p>Alex Johnson is a Senior AI Research Scientist at Meta AI. His research has been published in top
-                                 conferences like NeurIPS and ICML, with over 10,000 citations. 
-                                 Alex is passionate about pushing the boundaries of AI while ensuring 
-                                 ethical development.</p>
-                        </div>
+
                     </div>
-                <a href="CarolinaBalaur.pdf" class="btn-primary" target="_blank">
-                    View CV (PDF)
-                </a>
+                    <div class="bio-sidebar">
+                        <h3 style="color: #221f1f; margin-bottom: 20px;">Professional Summary</h3>
+
+                        <div class="education-item">
+                            <div class="education-details">
+                                <h4>Professional Summary</h4>
+                                <p>Alex Johnson is a Senior AI Research Scientist at Meta AI. His research has been
+                                    published in top
+                                    conferences like NeurIPS and ICML, with over 10,000 citations.
+                                    Alex is passionate about pushing the boundaries of AI while ensuring
+                                    ethical development.</p>
+                            </div>
+                        </div>
+                        <a href="CarolinaBalaur.pdf" class="btn-primary" target="_blank">
+                            View CV (PDF)
+                        </a>
 
 
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
-
-        
     </header>
 
     <div class="container">
-        <!-- Bio Section -->
+    
         <section id="bio" class="section">
             <div class="bio-section">
                 <div class="bio-content">
-                    
+
                     <h2 class="section-title">Professional Summary</h2>
                     <p>
-                        I am a passionate researcher and educator working at the intersection of artificial intelligence 
-                        and machine learning. My research has been published in top-tier conferences including NeurIPS, 
+                        I am a passionate researcher and educator working at the intersection of artificial intelligence
+                        and machine learning. My research has been published in top-tier conferences including NeurIPS,
                         ICML, and CVPR, with over 10,000 citations.
                     </p>
                     <p>
-                        I'm dedicated to advancing the field of AI while ensuring ethical development and deployment 
-                        of intelligent systems. My work focuses on developing novel algorithms for deep learning, 
+                        I'm dedicated to advancing the field of AI while ensuring ethical development and deployment
+                        of intelligent systems. My work focuses on developing novel algorithms for deep learning,
                         computer vision, and natural language processing.
                     </p>
-                    
+
                     <h3>Interests</h3>
                     <div class="interests-grid">
                         <div class="interest-item">
@@ -377,15 +391,15 @@
                         <div class="interest-item">
                             <img src="icons/Pool.png" alt="Video Games Icon">
                             <p>Swimming</p>
+                        </div>
                     </div>
-                </div>
 
                 </div>
 
                 <div class="bio-sidebar">
                     <h3 style="color: #667eea; margin-bottom: 20px;">Education</h3>
-                    
-                      <div class="interests">
+
+                    <div class="interests">
                         <span class="interest-tag">Python</span>
                         <span class="interest-tag">C#</span>
                         <span class="interest-tag">Kotlin</span>
@@ -396,51 +410,45 @@
                         <span class="interest-tag">SQL</span>
                         <span class="interest-tag">CI/CD</span>
                     </div>
-            </div>
+                </div>
         </section>
 
         <!-- Projects Section -->
         <section id="projects" class="section">
             <h2 class="section-title">🚀 GitHub Projects</h2>
-             <div class="bio-content">
-                    
-                    <p>
-                        Both of the
-                    </p>
-                    <p>
-                        I'm dedicated to advancing the field of AI while ensuring ethical development and deployment 
-                        of intelligent systems. My work focuses on developing novel algorithms for deep learning, 
-                        computer vision, and natural language processing.
-                    </p>
-                
+            <div class="bio-content">
+                <p>
+                    The projects displayed is a demonstration of my progression learning C#.
+                    They showcase the growth from simple console-based applications to more structured, interactive and
+                    maintainable Windows Forms applications.
+                    They show the progression to more advanced C# projects.
+                </p>
+            </div>
 
-                </div>
             <div class="project-box">
                 <div class="project-card">
-                    <h3>🤖 Project One</h3>
-                    <p>
-                        An open-source implementation of state-of-the-art language models with efficient 
-                        training and inference capabilities.
-                    </p>
-                    <p class="tech-stack">Python • PyTorch • Transformers • CUDA</p>
-                    <a href="https://github.com/cocobalaur/answering-question-game.git" target="_blank">View Repository →</a>
+                    <h3>❔Trivia Game</h3>
+                    <a href="https://github.com/cocobalaur/answering-question-game.git" target="_blank">
+                        <img src="icons-images/project1.png" alt="Project One Screenshot" class="project-image">
+                    </a>
+                    <p class="tech-stack">C#</p>
+                    <a href="https://github.com/cocobalaur/answering-question-game.git" target="_blank">View Repository
+                        →</a>
                 </div>
 
                 <div class="project-arrow">→</div>
 
                 <div class="project-card">
-                    <h3>🎯 Project Three</h3>
-                    <p>
-                        Reinforcement learning framework for training autonomous agents in complex 
-                        simulated environments.
-                    </p>
-                    <p class="tech-stack">Python • TensorFlow • OpenAI Gym • Docker</p>
-                    <a href="https://github.com/cocobalaur/AppDev_2025_LinaBiba.git" target="_blank">View Repository →</a>
+                    <h3>💰Budget App</h3>
+                    <a href="https://github.com/cocobalaur/AppDev_2025_LinaBiba.git" target="_blank">
+                        <img src="icons-images\project2.png" alt="Project Two Screenshot" class="project-image">
+                    </a>
+                    <p class="tech-stack">C#</p>
+                    <a href="https://github.com/cocobalaur/AppDev_2025_LinaBiba.git" target="_blank">View Repository
+                        →</a>
                 </div>
             </div>
         </section>
-
 </body>
+
 </html>
-
-
